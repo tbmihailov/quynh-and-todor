@@ -1285,7 +1285,6 @@ strong {
     width: 960px;
   }
   .container.is-fluid {
-    margin: 0 20px;
     max-width: none;
     width: auto;
   }
@@ -2493,7 +2492,7 @@ a.nav-item.is-tab.is-active {
 
 .hero.is-black {
   background-color: #0a0a0a;
-  color: white;
+  color: whitesmoke;
 }
 
 .hero.is-black a:not(.button),
@@ -2502,11 +2501,11 @@ a.nav-item.is-tab.is-active {
 }
 
 .hero.is-black .title {
-  color: white;
+  color: #5a5a5a;
 }
 
 .hero.is-black .subtitle {
-  color: rgba(255, 255, 255, 0.9);
+  color: whitesmoke;
 }
 
 .hero.is-black .subtitle a:not(.button),
@@ -2699,15 +2698,18 @@ a.nav-item.is-tab.is-active {
 
 .hero.is-dark .title {
   color: whitesmoke;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .hero.is-dark .subtitle {
-  color: rgba(245, 245, 245, 0.9);
+  color: whitesmoke;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .hero.is-dark .subtitle a:not(.button),
 .hero.is-dark .subtitle strong {
   color: whitesmoke;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .hero.is-dark .nav {
@@ -2722,7 +2724,7 @@ a.nav-item.is-tab.is-active {
 
 .hero.is-dark a.nav-item,
 .hero.is-dark .nav-item a:not(.button) {
-  color: rgba(245, 245, 245, 0.7);
+  color: whitesmoke;
 }
 
 .hero.is-dark a.nav-item:hover, .hero.is-dark a.nav-item.is-active,
@@ -2796,16 +2798,17 @@ a.nav-item.is-tab.is-active {
 }
 
 .hero.is-primary .title {
-  color: #fff;
+  color: whitesmoke;
 }
 
 .hero.is-primary .subtitle {
-  color: rgba(255, 255, 255, 0.9);
+  color: whitesmoke;
 }
 
 .hero.is-primary .subtitle a:not(.button),
 .hero.is-primary .subtitle strong {
-  color: #fff;
+  color: whitesmoke;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .hero.is-primary .nav {
@@ -3291,6 +3294,9 @@ a.nav-item.is-tab.is-active {
 
 .hero.is-fullheight {
   min-height: 100vh;
+}
+.hero.is-halfheight {
+  min-height: 50vh;
 }
 
 .hero.is-fullheight .hero-body {
